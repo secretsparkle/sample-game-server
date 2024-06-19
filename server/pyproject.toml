@@ -1,0 +1,19 @@
+[project]
+name = "questaria_server"
+version = "0.0.1"
+authors = [
+  { name="secretsparkle"},
+  { name="b-cooper"},
+]
+description = "A backend server for the questaria game"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/secretsparkle/sample-game-server"
+Issues = "https://github.com/secretsparkle/sample-game-server/issues"
