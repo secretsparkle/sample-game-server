@@ -1,12 +1,12 @@
-# sample-game-server
-
+# Questaria
 
 ## Frontend Dev Environment Setup
-
-- install dependencies `cd /client && npm install`
-- start server dependencies `cd /client && npm run start`
+- get to the right dir `cd /client`
+- install dependencies `npm install`
+- start server dependencies `npm run start`
 
 ## Backend Dev Environment Setup
-
-- install dependencies `cd /server && pip install -e .`
-- start server dependencies `cd /server && python app.py`
+- get to the right dir `cd /server`
+- activate virtual env `source /bin/activate`
+- install dependencies `pip install -r requirements.txt`
+- start server dependencies `python app.py`
