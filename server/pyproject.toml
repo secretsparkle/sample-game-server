@@ -5,10 +5,6 @@ authors = [
   { name="secretsparkle"},
   { name="b-cooper"},
 ]
-dependencies = [
-    "flask",
-    "flask_socketio",
-]
 description = "A backend server for the questaria game"
 readme = "README.md"
 requires-python = ">=3.7"
