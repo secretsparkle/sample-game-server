@@ -3,7 +3,7 @@ import io from "socket.io-client";
 let endpoint = "http://localhost:5000";
 let socket = io.connect(endpoint);
 
-const App = () => {
+export const CommandPrompt = () => {
     const [messages, setMessages] = useState([]);
     const [message, setMessage] = useState("");
 
@@ -20,7 +20,7 @@ const App = () => {
     };
 
     return (
-        <div className="App">
+        <div className="command_prompt_container">
             <h2>Messages</h2>
             <div>
                 {messages.map(msg => (<p>{msg}</p>))}
@@ -34,5 +34,3 @@ const App = () => {
         </div>
     );
 };
-
-export default App;

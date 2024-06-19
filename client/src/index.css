@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.command_prompt_container {
+  height: 60vh;
+  overflow-y: scroll;
+}
